@@ -17,10 +17,10 @@ public class PersonHandler {
         // while `counter` is less than length of array
             // begin loop
         while (counter < personArray.length) {
-            for (int i = 0; i < personArray.length; i++) {
+//            for (int i = 0; i < personArray.length; i++) {
                 result += personArray[counter].toString();
                 counter++;
-            }
+//            }
         }
                 // use `counter` to identify the `current Person` in the array
                 // get `string Representation` of `currentPerson`
